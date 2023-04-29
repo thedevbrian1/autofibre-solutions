@@ -50,7 +50,7 @@ export default function About() {
 function AboutUs() {
     return (
         <section className="w-4/5 xl:max-w-6xl mx-auto">
-            <h1 className="font-semibold text-3xl lg:text-5xl lg:text-center mt-40">About Autofibre Solutions Ltd</h1>
+            <h1 className="font-semibold text-3xl md:text-4xl lg:text-5xl lg:text-center mt-40">About Autofibre Solutions Ltd</h1>
             <p className="lg:text-center mt-6 lg:mt-8 opacity-90">
                 Autofibre Solutions Limited is an established local company founded with the principle objectives of providing goods and services to other businesses and organizations. The business has gotten its strength from the professional approach we use to conduct our dealings. Backed by experienced qualified staff in all areas of operation, we always strive to deliver quality goods and services at highly competitive rates.
             </p>
@@ -65,12 +65,12 @@ function MissionAndVision() {
             <div className="flex flex-col lg:flex-row gap-y-8 lg:gap-y-0 lg:gap-x-12 lg:items-center">
                 <div>
                     {/* <Heading text='Mission' align='left' /> */}
-                    <h2 className="font-semibold text-2xl lg:text-4xl text-left lg:text-center">Mission</h2>
+                    <h2 className="font-semibold text-2xl md:text-3xl lg:text-4xl text-left lg:text-center">Mission</h2>
                     <p className="lg:text-center mt-4 text-lg lg:mt-6 opacity-90 lg:px-8">
                         To become a regional brand in commodities and service delivery and be recognized for a customer-centric focus.
                     </p>
                     {/* <Heading text='Vision' align='left' /> */}
-                    <h2 className="mt-8 font-semibold text-2xl lg:text-4xl text-left lg:text-center">Vision</h2>
+                    <h2 className="mt-8 font-semibold text-2xl md:text-3xl lg:text-4xl text-left lg:text-center">Vision</h2>
                     <p className="lg:text-center mt-4 text-lg lg:mt-6 opacity-90 lg:px-8">
                         To competitively offer a reliable service to our customers, with an assurance of delivery of the desired results.
                     </p>
@@ -95,7 +95,7 @@ function Objectives() {
         <section className="w-4/5 xl:max-w-6xl mx-auto mt-16 lg:mt-24 pb-20">
             <div className="flex flex-col lg:flex-row gap-y-8 lg:gap-y-0 lg:gap-x-16 lg:items-center">
                 <div className="lg:order-2">
-                    <h2 className="font-semibold text-2xl lg:text-4xl text-left lg:text-center">Objectives</h2>
+                    <h2 className="font-semibold text-2xl md:text-3xl lg:text-4xl text-left lg:text-center">Objectives</h2>
                     <ul className="lg:max-w-lg mt-4 lg:mt-6 list-disc lg:px-8">
                         {objectives.map((objective, index) => (
                             <Objective text={objective} key={index} />
@@ -132,7 +132,7 @@ function CoreValues() {
     return (
         <section className="w-full bg-brand-yellow py-20">
             <div className="w-4/5 xl:max-w-6xl mx-auto">
-                <h2 className="font-semibold text-2xl lg:text-4xl text-left lg:text-center">Core values</h2>
+                <h2 className="font-semibold text-2xl md:text-3xl lg:text-4xl text-left lg:text-center">Core values</h2>
                 <ul className="list-disc lg:max-w-xl mx-auto mt-4 lg:mt-6">
                     {coreValues.map((value, index) => (
                         <li key={index} className="text-lg text-gray-800"><span className="font-semibold">{value.name}:</span> {value.description}</li>

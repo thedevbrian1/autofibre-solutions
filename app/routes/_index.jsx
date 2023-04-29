@@ -106,7 +106,7 @@ function Playground() {
             <Heading text='100+' />
             <p className="text-gray-800 text-2xl lg:text-4xl md:text-center">fibreglass playground equipments built</p>
           </div>
-          <div className="bg-[url('/fibreglass-multiplay-system.jpg')] bg-center bg-contain bg-no-repeat max-w-sm aspect-video lg:aspect-auto lg:w-96 h-80 border border-red-500" />
+          <div className="bg-[url('/fibreglass-multiplay-system.jpg')] bg-center bg-contain bg-no-repeat max-w-sm aspect-video lg:aspect-auto lg:w-96 h-80" />
         </div>
       </div>
     </section>
