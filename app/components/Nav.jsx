@@ -36,7 +36,7 @@ export default function Nav({ hash, setHash }) {
                 {
                     isMenuShowing && (
                         <div className="flex flex-col justify-center items-center gap-y-3 bg-black opacity-90 w-full h-screen fixed z-10 top-0 left-0 transition duration-500 ease-in-out">
-                            <div className="w-6 h-6 absolute top-6 right-5">
+                            <div className="w-6 h-6 absolute top-7 right-12">
                                 <svg
                                     viewBox="0 0 16 17"
                                     fill="none"

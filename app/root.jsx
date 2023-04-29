@@ -50,8 +50,8 @@ export default function App() {
             <div className="w-64 h-20">
               <img src="/logo.png" className="w-full h-full" />
             </div>
-            <div className="self-start lg:self-auto mt-8">
-              <ul className="flex flex-col lg:flex-row gap-2 lg:gap-6 text-white">
+            <div className="self-start md:self-auto mt-8">
+              <ul className="flex flex-col md:flex-row gap-2 md:gap-6 text-white">
                 <li className="hover:text-brand-yellow transition duration-300 ease-in-out">
                   <NavLink
                     to="/"
